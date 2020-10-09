@@ -4,6 +4,9 @@ simple tool to publish messages stored as double-newline-delimited json.
 For importing files and more complex features see tre-init/bin/import.js
 
 ```
+USAGE
+
+  tre-import INPUT_FILE|- [--dryRun] [--config CONFIG] [--help]
 
 DESCRIPTION
 

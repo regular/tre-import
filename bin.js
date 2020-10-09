@@ -11,7 +11,6 @@ debug('parsed command line arguments: %O', argv)
 if (argv._.length<1 || argv.help) {
   const bin = argv['run-by-tre-cli'] ? 'tre import' : 'tre-import'
   if (argv.help) {
-    console.error('USAGE\n  ' + require('./usage')(bin))
     console.error(require('./help')(bin))
     process.exit(0)
   } else {

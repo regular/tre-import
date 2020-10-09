@@ -1,4 +1,8 @@
-module.exports = bin => `
+module.exports = bin =>
+`USAGE
+
+  ${require('./usage')(bin)}
+
 DESCRIPTION
 
   ${bin} reads a double-newline-delimited JSON file containing ssb message content objects and publishes them to an ssb network.
