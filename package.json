@@ -1,6 +1,6 @@
 {
   "name": "tre-import",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "cli tool that reads a double-newline-delimited JSON file containing ssb message content objects and publishes them to an ssb network",
   "main": "index.js",
   "bin": {
