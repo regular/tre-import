@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "cli tool that reads a double-newline-delimited JSON file containing ssb message content objects and publishes them to an ssb network",
   "main": "index.js",
+  "bin": {
+    "tre-import": "bin.js"
+  },
   "scripts": {
     "make-readme": "node build/make-readme.js > README.md",
     "test": "echo \"Error: no test specified\" && exit 1"
