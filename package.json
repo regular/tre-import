@@ -1,9 +1,10 @@
 {
   "name": "tre-import",
   "version": "1.0.0",
-  "description": "",
+  "description": "cli tool that reads a double-newline-delimited JSON file containing ssb message content objects and publishes them to an ssb network",
   "main": "index.js",
   "scripts": {
+    "make-readme": "node build/make-readme.js > README.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,9 +13,18 @@
   },
   "keywords": [],
   "author": "Jan Bölsche <jan@lagomorph.de> (https://regular.codes/)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/regular/tre-import/issues"
   },
-  "homepage": "https://github.com/regular/tre-import#readme"
+  "homepage": "https://github.com/regular/tre-import#readme",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "pull-file": "^1.1.0",
+    "pull-json-doubleline": "^2.0.0",
+    "pull-stdio": "^1.0.0",
+    "pull-stream": "^3.6.14",
+    "ssb-keys": "^8.0.0",
+    "ssb-zero-conf-client": "^1.0.1"
+  }
 }
